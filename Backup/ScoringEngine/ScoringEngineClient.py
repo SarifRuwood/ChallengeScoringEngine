@@ -1,6 +1,5 @@
 
 import socket
-import getpass
 
 #======================GLOBAL VARIABLES=======================
 
@@ -39,13 +38,6 @@ scoringEngineConfigFile = "ScoringEngineConfig v0.01.txt"
 
 #=========================FUNCTIONS===========================
 
-##Function Template
-"""
-##
-def ():
-    pass
-"""
-
 #=============================================================
 #===================== General Functions =====================
 #=============================================================
@@ -61,15 +53,7 @@ def findIndexOfAllOccurancesInString(mainString, occureStr):
 # region System Operation Functions
 
 ##
-def getLoggedInUsername():
-    return getpass.getuser()
-
-## Returns a list of all user accounts on the system
-def getAllUserAccounts():
-    pass
-
-## Returns a list of all inactive user accounts on the system
-def getInactiveUserAccounts():
+def getUsername():
     pass
 
 ##
@@ -78,10 +62,6 @@ def enablePersistence():
 
 ##
 def disablePersistence():
-    pass
-
-##
-def checkPersistence():
     pass
 
 ##
@@ -136,7 +116,7 @@ def setConfigValue(filePath, settingName, settingValue, sep=None):
         print("Error: While setting config {} to {} in file {}, the following exception was thrown:\n\n{}\n\n".format(settingName, settingValue, filePath, e))
         return False
 
-print(setConfigValue("testConfig.txt", "idea.max.content.load.filesize", 10000, '='))
+print(setConfigValue("C:\\Users\\DevClientAdmin\\Desktop\\testConfig.txt", "idea.max.content.load.filesize", 10000, '='))
 
 # endregion
 #=============================================================
@@ -218,36 +198,6 @@ def loadChallengesFromFile():
 
 ## Scans and reports all open ports on the machine, using nmap, returning an iterable list of open ports
 def checkPorts():
-    pass
-
-# endregion
-#=============================================================
-#================ Service Monitoring Functions ===============
-#=============================================================
-# region Service Monitoring Functions
-
-## Includes a supported service in the list of services hosted by this box
-def includeService():
-    pass
-
-##
-def removeService():
-    pass
-
-##
-def checkServices():
-    pass
-
-##
-def addServicePort():
-    pass
-
-##
-def removeServicePort():
-    pass
-
-##
-def checkServicePorts():
     pass
 
 # endregion

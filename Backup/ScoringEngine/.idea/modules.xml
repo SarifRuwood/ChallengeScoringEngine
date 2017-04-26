@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ScoringEngine.iml" filepath="$PROJECT_DIR$/.idea/ScoringEngine.iml" />
+      <module fileurl="file://$USER_HOME$/Google Drive/Scripts/ScoringEngine/.idea/ScoringEngine.iml" filepath="$USER_HOME$/Google Drive/Scripts/ScoringEngine/.idea/ScoringEngine.iml" />
     </modules>
   </component>
 </project>
